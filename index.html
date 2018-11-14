@@ -8,10 +8,6 @@
       margin: 0;
       padding: 0;
     }
-      #map{
-        height: 500px;
-        width: 80%;
-      }
     </style>
   </head>
   <body>
@@ -21,11 +17,11 @@
           <li><a href="">Nueva Actividad</a></li>
           <li><a href="">Desafios</a></li>
           <li><a href="">Mis clases</a></li>
-          <img src="" alt="logo-user">
+          <img src="images/user.png" alt="logo-user">
           <!-- logo del usuario -->
           <p>17.5 K</p>
           <!-- calorias  -->
-          <img src="" alt="">
+          <img src="images/fire-icon.png" alt="">
         </ul>
       </nav>
     </header>
@@ -39,62 +35,52 @@
         <li>precio</li>
         <!-- dispplay de opciones  -->
       </ul>
-      <div><a href=""><img src="" alt=""></a></div>
-      <div><a href=""><img src="" alt=""></a></div>
-      <div><a href=""><img src="" alt=""></a></div>
-      <div><a href=""><img src="" alt=""></a></div>
-      <div><a href=""><img src="" alt=""></a></div>
+      <div><a href=""><img src="images/ballet.jpg" alt=""></a></div>
+      <div><a href=""><img src="images/futbol.jpg" alt=""></a></div>
+      <div><a href=""><img src="images/basket.jpg" alt=""></a></div>
+      <div><a href=""><img src="images/hockey.jpg" alt=""></a></div>
+      <div><a href=""><img src="images/natacion.jpg" alt=""></a></div>
       <!-- Secion principal -->
     </section>
     <section>
-      <input id="pac-input" class="controls" type="text" placeholder="Search Box">
-      <div id="map"></div>
-      <script type="text/javascript">
-        function initmap() {
-          var map = new google.maps.Map(document.getElementById("map"),{
-            zoom: 4,
-            center: {lat:34.115, Ing: 49.193}
-
-          });
-          var input = document.getElementById('pac-input');
-        var searchBox = new google.maps.places.SearchBox(input);
-        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
-
-        // Bias the SearchBox results towards current map's viewport.
-        map.addListener('bounds_changed', function() {
-          searchBox.setBounds(map.getBounds());
-        });
-        }
-      </script>
+    <img src="images/fake-map.png" alt="mapa falso">
       <!-- mapa -->
       <!-- javascript del mapa  -->
     </section>
     <section>
-      <h2>STATUS</h2>
-      <!-- status de salud con valores  -->
-      <div class="stats">
-        <img src="" alt="">
-        <p>50 trainings</p>
-        <img src="" alt="">
-        <p>5 km distances</p>
-        <img src="" alt="">
-        <p>108 bpm</p>
-        <img src="" alt="">
-        <p>10:40:57 workout time</p>
-      </div>
+      <article class="status">
+        <h2>STATUS</h2>
+        <!-- status de salud con valores  -->
+        <div class="stats">
+          <img src="images/workouts.jpg" alt="">
+          <p>50 trainings</p>
+          <img src="images/distancia.png" alt="">
+          <p>5 km distances</p>
+          <img src="images/heart-rate.jpg" alt="">
+          <p>108 bpm</p>
+          <img src="images/time.png" alt="">
+          <p>10:40:57 workout time</p>
+        </div>
+      </article>
 
-      <div class="friends">
-        <!-- Amigos y sus actividades -->
-        <p>Corri diez kilometros</p>
-        <img src="" alt="">
-        <input type=button name="" value="look for more friends">
-      </div>
+      <article class="friends">
+          <!-- Amigos y sus actividades -->
+          <p>jugue volley muy bien !!</p>
+          <img src="volley.jpg" alt="">
+          <input type=button name="" value="look for more friends">
+      </article>
 
-      <div class="app">
+
+      <article class="app">
         <!-- boton del app -->
-        <button type="button" name="button"></button>
-        <button type="button" name="button"></button>
-      </div>
+        <figure>
+          <a href=""><img src="images/playstore.png" alt=""></a>
+        </figure>
+        <figure>
+              <a href=""><img src="images/appstore.jpg" alt=""></a>
+        </figure>
+      </article>
+      
       <!-- Barra lateral -->
     </section>
   </body>
