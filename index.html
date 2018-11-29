@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>B morph</title>
-    <style media="screen">
-    *{
-      margin: 0;
-      padding: 0;
-    }
-    </style>
+    <link rel="stylesheet" href="index-css.css">
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <figure class="logo">
+        <!--aqui va nuestro logo como empresa -->
+        <img src="" alt="">
+      </figure>
+      <nav class="menu">
         <ul>
           <li><a href="./nueva-actividad/nueva-actividad.html">Nueva Actividad</a></li>
           <!-- Aqui se supne es un popout y se abre un formulario -->
@@ -27,29 +26,30 @@
         </ul>
       </nav>
     </header>
-    <section>
+    <section class="hero">
+      <!-- parte principal de nuestro dashboard -->
       <h1><strong>EMPIEZA A ENTRENAR</strong></h1>
       <h5><a href="">explora</a></h5>
       <h5><a href="">sigue entrenando</a></h5>
-      <ul>
-        <li>categorias</li>
-        <li>horario</li>
-        <li>precio</li>
+      <ul class="subcategoriasall">
+        <li class="sub-categoria">categorias</li>
+        <li class="sub-categoria">horario</li>
+        <li class="sub-categoria">precio</li>
         <!-- dispplay de opciones  -->
       </ul>
-      <div><a href=""><img src="images/ballet.jpg" alt=""></a></div>
-      <div><a href=""><img src="images/futbol.jpg" alt=""></a></div>
-      <div><a href=""><img src="images/basket.jpg" alt=""></a></div>
-      <div><a href=""><img src="images/hockey.jpg" alt=""></a></div>
-      <div><a href=""><img src="images/natacion.jpg" alt=""></a></div>
+      <div class="actividad-to-do"><a href=""><img src="images/ballet.jpg" alt=""></a></div>
+      <div class="actividad-to-do"><a href=""><img src="images/futbol.jpg" alt=""></a></div>
+      <div class="actividad-to-do"><a href=""><img src="images/basket.jpg" alt=""></a></div>
+      <div class="actividad-to-do"><a href=""><img src="images/hockey.jpg" alt=""></a></div>
+      <div class="actividad-to-do"><a href=""><img src="images/natacion.jpg" alt=""></a></div>
       <!-- Secion principal -->
     </section>
-    <section>
+    <section class="el-mapa">
     <img src="images/fake-map.png" alt="mapa falso">
       <!-- mapa -->
       <!-- javascript del mapa  -->
     </section>
-    <section>
+    <section class="estado-salud-amigos-app">
       <article class="status">
         <h2>STATUS</h2>
         <!-- status de salud con valores  -->
