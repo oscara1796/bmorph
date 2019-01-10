@@ -6,6 +6,40 @@ body{
 
 }
 
+/* aqui terminan elementos generales */
+
+.header{
+  height: 350px;
+  width: 1000px;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu-user img{
+  width: 40px;
+}
+
+.menu-user-fire img{
+  width: 30px;
+}
+
+/* Aqui llega la sección header */
+.hero{
+  height: 350px;
+  width: 1000px;
+}
+
+.hero a{
+  color: white;
+  text-decoration: none;
+}
+
+.hero-navigation{
+  width: 500px;
+}
+
 h1,
 h2,
 h3,
@@ -22,4 +56,38 @@ h1{
   letter-spacing: 3px;
   text-transform: uppercase;
   /* text-decoration: underline; */
+}
+
+/* aqui llegala seccion hero  */
+.el-mapa{
+  height: 300px;
+  width: 1000px;
+  background-image: url(./images/fake-map.png);
+  background-size: 1000px 500px;
+  /* esto va asi width height  */
+  background-repeat: no-repeat;
+}
+
+/* AQUI LLEGA LA SECCION MAPS */
+
+.estado-salud-amigos-app{
+  width: 480px;
+  height: 700px;
+  background-color: #353535;
+  color: white;
+}
+
+.stats img{
+  width: 40px;
+}
+
+.app img{
+  width: 170px;
+}
+/* AQUI LLEGA LA SIDE BAR DE STATUS */
+
+.header,
+.hero {
+  background-color: #119806;
+  color: white;
 }
