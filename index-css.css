@@ -31,7 +31,9 @@ body{
 /* Aqui llega la sección header */
 .hero{
   height: 350px;
-  width: 1000px;
+  width: 980px;
+  padding-left: 20px;
+  margin-right: 480px;
 }
 
 .actividad-to-do img{
@@ -73,7 +75,7 @@ h1{
   text-transform: uppercase;
   /* text-decoration: underline; */
   margin-top: 0px;
-  margin-left: 10px;
+
 }
 
 /* aqui llegala seccion hero  */
