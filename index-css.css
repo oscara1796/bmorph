@@ -3,7 +3,7 @@
 
 body{
   font-family: "Source Sans Pro", sans-serif;
-
+  margin: 0px;
 }
 
 /* aqui terminan elementos generales */
@@ -11,6 +11,9 @@ body{
 .header{
   height: 350px;
   width: 1000px;
+}
+.logo{
+  margin-top: 0px;
 }
 .header a{
   color: white;
@@ -29,6 +32,19 @@ body{
 .hero{
   height: 350px;
   width: 1000px;
+}
+
+.actividad-to-do img{
+  width: 150px;
+  /* border-top: 3px solid red;
+  border-right: 5px solid green;
+  border-left: 5px solid orange;
+  border-bottom: 5px solid pink; */
+  /* border-color: black;
+  border-width: 5px;
+  border-style: solid; */
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 .hero a{
@@ -56,6 +72,8 @@ h1{
   letter-spacing: 3px;
   text-transform: uppercase;
   /* text-decoration: underline; */
+  margin-top: 0px;
+  margin-left: 10px;
 }
 
 /* aqui llegala seccion hero  */
@@ -76,7 +94,10 @@ h1{
   background-color: #353535;
   color: white;
 }
-
+.estado-title{
+  margin-top: 0px;
+  margin-left: 10px;
+}
 .stats img{
   width: 40px;
 }
