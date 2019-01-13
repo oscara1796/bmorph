@@ -31,9 +31,10 @@ body{
 /* Aqui llega la sección header */
 .hero{
   height: 350px;
-  width: 980px;
+  width: 1000px;
   padding-left: 20px;
   margin-right: 480px;
+  box-sizing: border-box;
 }
 
 .actividad-to-do img{
@@ -86,6 +87,7 @@ h1{
   background-size: 1000px 500px;
   /* esto va asi width height  */
   background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
 /* AQUI LLEGA LA SECCION MAPS */
@@ -95,10 +97,13 @@ h1{
   height: 700px;
   background-color: #353535;
   color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+  box-sizing: border-box;
 }
 .estado-title{
   margin-top: 0px;
-  margin-left: 10px;
+
 }
 .stats img{
   width: 40px;
