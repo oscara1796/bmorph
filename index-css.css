@@ -4,37 +4,104 @@
 body{
   font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #353535;
 }
 
 /* aqui terminan elementos generales */
 
 .header{
-  height: 350px;
-  width: 1000px;
+  height: 90px;
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
 }
 .logo{
   margin-top: 0px;
+  height: inherit;
+}
+.logo img{
+  height: 80px;
+  width: 150px;
+  vertical-align: middle;
 }
 .header a{
   color: white;
   text-decoration: none;
 }
-
-.menu-user img{
-  width: 40px;
+.header-menu{
+  height: inherit;
+}
+.header ul{
+ display: flex;
+ height: inherit;
 }
 
+.header ul li{
+ height: inherit;
+ display: flex;
+
+}
+
+.header a{
+ display: flex;
+ align-items: center;
+  margin: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.menu-user-fire{
+  display: flex;
+  height: inherit;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-right: 20px;
+}
 .menu-user-fire img{
-  width: 30px;
+  width: 45px;
+  margin-left: 5px;
+  vertical-align: middle;
 }
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+figure{
+  margin: 0;
+  padding: 0;
+}
+
+.menu-user{
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+.menu-user img{
+  width: 50px;
+  vertical-align: middle;
+}
+
+.header p{
+ font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+
 
 /* Aqui llega la sección header */
 .hero{
   height: 350px;
-  width: 1000px;
+  width: 950px;
   padding-left: 20px;
-  margin-right: 480px;
+  /* margin-right: 480px; */
   box-sizing: border-box;
+  padding-top: 20px;
+
 }
 
 .actividad-to-do img{
@@ -82,7 +149,7 @@ h1{
 /* aqui llegala seccion hero  */
 .el-mapa{
   height: 300px;
-  width: 1000px;
+  width: 950px;
   background-image: url(./images/fake-map.png);
   background-size: 1000px 500px;
   /* esto va asi width height  */
@@ -93,13 +160,14 @@ h1{
 /* AQUI LLEGA LA SECCION MAPS */
 
 .estado-salud-amigos-app{
-  width: 480px;
+  width: 395px;
   height: 700px;
   background-color: #353535;
   color: white;
   padding-left: 40px;
   padding-top: 20px;
   box-sizing: border-box;
+
 }
 .estado-title{
   margin-top: 0px;
@@ -118,4 +186,11 @@ h1{
 .hero {
   background-color: #119806;
   color: white;
+}
+
+.flexbox{
+   display: flex;
+   flex-wrap: wrap;
+   /* flex-direction: column; */
+
 }
