@@ -97,15 +97,15 @@ figure{
 .hero{
   height: 350px;
   width: 950px;
-  padding-left: 20px;
   /* margin-right: 480px; */
   box-sizing: border-box;
-  padding-top: 20px;
+  padding: 0px 20px 20px;
 
 }
 
 .actividad-to-do img{
   width: 150px;
+  height: 100px;
   /* border-top: 3px solid red;
   border-right: 5px solid green;
   border-left: 5px solid orange;
@@ -123,7 +123,9 @@ figure{
 }
 
 .hero-navigation{
-  width: 500px;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
 }
 
 h1,
@@ -142,8 +144,41 @@ h1{
   letter-spacing: 3px;
   text-transform: uppercase;
   /* text-decoration: underline; */
+  margin-bottom: 15px;
   margin-top: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+}
 
+.hero-clases{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.hero-submenus h5{
+  display: inline-block;
+  margin: 0px;
+  margin-right: 0px;
+  font-size: 20px;
+  padding: 0px 10px 0px;
+}
+
+.hero-submenu-explora{
+  border-right: 2px solid white;
+}
+
+.subcategoriasall{
+  display: flex;
+
+  padding-left: 10px;
+
+}
+
+.hero li{
+  margin-right: 10px;
 }
 
 /* aqui llegala seccion hero  */
@@ -164,9 +199,11 @@ h1{
   height: 700px;
   background-color: #353535;
   color: white;
-  padding-left: 40px;
-  padding-top: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-start;
 
 }
 .estado-title{
@@ -175,10 +212,26 @@ h1{
 }
 .stats img{
   width: 40px;
+  height: 40px;
 }
 
 .app img{
   width: 170px;
+}
+.status h2{
+  text-align: center;
+}
+
+.stats{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  justify-content: center;
+  padding: 10px;
+}
+
+.stats-time{
+
 }
 /* AQUI LLEGA LA SIDE BAR DE STATUS */
 
